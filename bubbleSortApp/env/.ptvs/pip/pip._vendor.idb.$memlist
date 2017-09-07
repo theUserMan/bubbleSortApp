@@ -2,7 +2,7 @@ retrying
 webencodings
 colorama
 requests
-glob
+progress
 pkg_resources
 os
 ipaddress
@@ -12,8 +12,8 @@ pyparsing
 WHEEL_DIR
 absolute_import
 distro
-progress
 html5lib
+glob
 DEBUNDLED
 appdirs
 cachecontrol

@@ -4,7 +4,7 @@ TestParserIdempotency
 syms
 tokenize
 tempfile
-TestNumericLiterals
+TestStringLiterals
 verbose
 TestUnpackingGeneralizations
 os
@@ -19,6 +19,7 @@ GrammarTest
 TestYieldFrom
 TestLiterals
 diff
+TestNumericLiterals
 TestDriver
 warnings
 ParseError

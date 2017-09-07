@@ -2,10 +2,10 @@ TimeoutError
 Pool
 time
 queue
-ThreadPool
+MapResult
 starmapstar
 traceback
-MapResult
+_helper_reraises_exception
 ExceptionWithTraceback
 RUN
 os
@@ -17,6 +17,7 @@ job_counter
 IMapUnorderedIterator
 __all__
 ApplyResult
+ThreadPool
 rebuild_exc
 TERMINATE
 CLOSE

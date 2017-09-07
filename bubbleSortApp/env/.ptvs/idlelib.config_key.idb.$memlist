@@ -57,6 +57,7 @@ MULTIPLE
 NE
 DoubleVar
 CHECKBUTTON
+ON
 SE
 EW
 Toplevel
@@ -135,7 +136,6 @@ X
 FALSE
 Place
 WORD
-ON
 Image
 CASCADE
 Listbox

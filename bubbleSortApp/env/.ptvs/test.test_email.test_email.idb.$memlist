@@ -5,7 +5,7 @@ MIMEMessage
 MIMEBase
 TestHeader
 utils
-Generator
+MIMEImage
 BytesGenerator
 TestQuopri
 BytesFeedParser
@@ -16,6 +16,7 @@ TestBytesGeneratorIdempotentCRLF
 BytesIO
 iterators
 BaseTestBytesGeneratorIdempotent
+getfqdn
 unlink
 DecodedGenerator
 TestFeedParsers
@@ -39,9 +40,9 @@ MIMEText
 Parser
 unittest
 TestMIMEMessage
-decode_header
-MIMEImage
 base64mime
+decode_header
+Generator
 TestBytesGeneratorIdempotentNL
 TestSigned
 TestBase64

@@ -15,10 +15,11 @@ RIGHT
 Label
 dialog
 re
+Menubutton
 Checkbutton
 NUMERIC
-PanedWindow
 NO
+PanedWindow
 BitmapImage
 Idb
 SEPARATOR
@@ -50,15 +51,14 @@ TclError
 Message
 E
 RAISED
+image_types
 font
-S
 ANCHOR
 MULTIPLE
 X
 NE
 AttributeError
 CHECKBUTTON
-ON
 SE
 CASCADE
 Toplevel
@@ -96,7 +96,6 @@ NS
 Pack
 INSERT
 ACTIVE
-Menubutton
 getboolean
 MOVETO
 Scale
@@ -131,7 +130,7 @@ HIDDEN
 Frame
 W
 image_names
-image_types
+S
 filedialog
 EXCEPTION
 RIDGE
@@ -145,6 +144,7 @@ DoubleVar
 FALSE
 Place
 WORD
+ON
 Image
 EW
 Listbox

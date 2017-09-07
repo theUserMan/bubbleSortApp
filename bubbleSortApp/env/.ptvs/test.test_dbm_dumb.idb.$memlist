@@ -1,10 +1,11 @@
-_delete_files
+support
 os
 operator
 dumbdbm
 warnings
 DumbDBMTestCase
-support
+_delete_files
+stat
 _fname
 io
 partial

@@ -5,8 +5,8 @@ codecs
 test_main
 TESTFN
 quoteattr
-XmlReaderTest
-feature_namespaces
+make_xml_file
+mock
 AttributesImpl
 XmlTestBase
 BytesIO
@@ -34,7 +34,8 @@ StringXmlgenTest
 prepare_input_source
 run_unittest
 XMLFilterBaseTest
-make_xml_file
+XmlReaderTest
+feature_namespaces
 xml_bytes
 XMLFilterBase
 create_parser

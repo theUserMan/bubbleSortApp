@@ -1,13 +1,10 @@
 _auto_null
-_and_
 reduce
 _or_
-neg
 _power_of_two
 unique
 DynamicClassAttribute
 _decompose
-xor
 IntFlag
 _is_dunder
 _reduce_ex_by_name

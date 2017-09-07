@@ -2,9 +2,9 @@ CONVERT_TEST_NAME_E
 OrderedDict
 CONVERT_TEST_NAME_F
 EnumMeta
-TestEnum
+TestHelpers
 Fruit
-IntEnum
+test_pickle_exception
 IntStooges
 enum
 TestOrder
@@ -23,10 +23,11 @@ CONVERT_TEST_NAME_D
 TestStdLib
 Enum
 Answer
-TestHelpers
+TestEnum
 unittest
+threading
 Question
-test_pickle_exception
+IntEnum
 FloatStooges
 Stooges
 CONVERT_TEST_NAME_A

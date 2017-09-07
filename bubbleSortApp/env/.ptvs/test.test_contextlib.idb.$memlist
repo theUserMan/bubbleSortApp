@@ -1,7 +1,7 @@
 deque
 Exception
-object
-unittest
+contextmanager
+type
 AbstractContextManager
 FileContextTestCase
 open
@@ -27,8 +27,8 @@ TestRedirectStream
 AttributeError
 TestExitStack
 ContextDecorator
-type
-contextmanager
+object
+unittest
 TestRedirectStdout
 io
 threading

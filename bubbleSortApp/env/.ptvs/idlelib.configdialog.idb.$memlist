@@ -63,7 +63,6 @@ int
 DoubleVar
 NE
 CHECKBUTTON
-ON
 SE
 SectionName
 EW
@@ -156,6 +155,7 @@ FALSE
 Place
 view_text
 WORD
+ON
 Image
 CASCADE
 Listbox

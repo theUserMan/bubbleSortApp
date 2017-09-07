@@ -1,4 +1,4 @@
-#!c:\users\linaniva\documents\visual studio 2017\Projects\bubbleSortApp\bubbleSortApp\env\Scripts\python.exe
+#!C:\Users\CobbNatR\Documents\School\CPSC544-HW1\bubbleSortApp\env\Scripts\python.exe
 from django.core import management
 
 if __name__ == "__main__":

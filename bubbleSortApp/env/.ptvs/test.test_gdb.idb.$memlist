@@ -3,7 +3,7 @@ gdb_minor_version
 gdb_major_version
 test_main
 locale
-checkout_hook_path
+PYTHONHASHSEED
 _
 PyLocalsTests
 PyBtTests
@@ -15,7 +15,7 @@ re
 StackNavigationTests
 unittest
 subprocess
-PYTHONHASHSEED
+checkout_hook_path
 run_unittest
 gdb_has_frame_select
 sys
@@ -29,6 +29,7 @@ sysconfig
 BREAKPOINT_FN
 findfile
 gdbpy_version
+textwrap
 HAS_PYUP_PYDOWN
 gdbpy_errors
 msg

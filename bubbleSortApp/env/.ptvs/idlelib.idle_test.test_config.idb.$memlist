@@ -1,8 +1,7 @@
-modules
+WarningTest
 tearDownModule
 testcfg
 captured_stderr
-Tk
 userhigh
 CurrentColorKeysTest
 usermain
@@ -11,5 +10,4 @@ userkeys
 idleConf
 config
 setUpModule
-WarningTest
 unittest

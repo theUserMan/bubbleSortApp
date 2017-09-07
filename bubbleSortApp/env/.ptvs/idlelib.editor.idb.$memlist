@@ -4,8 +4,7 @@ Misc
 YES
 IntVar
 NONE
-EXTENDED
-textview
+repr
 float
 Variable
 __name__
@@ -16,14 +15,14 @@ ROUND
 OFF
 colorchooser
 Label
-enumerate
+INSERT
 dialog
 re
 Checkbutton
 NUMERIC
 pyparse
-NO
 PanedWindow
+NO
 BitmapImage
 EditorWindow
 SEPARATOR
@@ -64,8 +63,8 @@ TclError
 Message
 PIESLICE
 RAISED
+S
 image_types
-ANCHOR
 font
 MULTIPLE
 NameError
@@ -76,7 +75,6 @@ DoubleVar
 AttributeError
 CHECKBUTTON
 hasattr
-ON
 SE
 Image
 EW
@@ -101,7 +99,7 @@ query
 help
 bytes
 Tcl
-repr
+EXTENDED
 windows
 INSIDE
 Radiobutton
@@ -121,7 +119,7 @@ COMMAND
 Menu
 NS
 Pack
-INSERT
+enumerate
 RIGHT
 ACTIVE
 Menubutton
@@ -174,7 +172,7 @@ W
 image_names
 EXCEPTION
 filedialog
-S
+ANCHOR
 RIDGE
 XView
 OUTSIDE
@@ -187,6 +185,7 @@ NE
 FALSE
 Place
 WORD
+ON
 UnicodeDecodeError
 CASCADE
 Listbox

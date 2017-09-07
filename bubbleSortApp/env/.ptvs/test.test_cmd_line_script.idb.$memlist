@@ -1,6 +1,6 @@
 sys
 test_main
-make_script
+assert_python_failure
 zipimport
 py_compile
 contextlib
@@ -13,8 +13,9 @@ _make_test_script
 support
 subprocess
 CmdLineTest
+io
 example_args
-assert_python_failure
+make_script
 importlib
 assert_python_ok
 make_zip_pkg

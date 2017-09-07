@@ -1,11 +1,12 @@
-ProxyType
+sys
 CallableProxyType
 WeakSet
 finalize
 collections
+_remove_dead_weakref
 getweakrefcount
 itertools
-WeakValueDictionary
+ProxyType
 __all__
 _IterationGuard
 getweakrefs
@@ -16,4 +17,4 @@ ReferenceType
 WeakMethod
 ProxyTypes
 ref
-sys
+WeakValueDictionary

@@ -5,6 +5,7 @@ _filter_suite
 struct
 captured_stderr
 run_unittest
+android_not_root
 sysconfig
 functools
 bind_port
@@ -14,8 +15,8 @@ HOST
 HAVE_DOCSTRINGS
 unload
 is_android
+tempfile
 WarningsRecorder
-_unlink
 can_xattr
 skip_unless_symlink
 captured_output
@@ -30,6 +31,7 @@ PIPE_MAX_SIZE
 subprocess
 errno
 run_doctest
+bind_unix_socket
 _can_symlink
 requires_type_collecting
 fs_is_case_insensitive
@@ -56,7 +58,7 @@ requires_docstrings
 requires
 skip_unless_xattr
 TESTFN_NONASCII
-captured_stdin
+run_with_tz
 _run_suite
 sortdict
 platform
@@ -75,6 +77,7 @@ TESTFN_UNICODE
 FS_NONASCII
 SuppressCrashReport
 contextlib
+character
 reap_threads
 start_threads
 system_must_validate_cert
@@ -121,7 +124,7 @@ zlib
 is_jython
 max_memuse
 faulthandler
-tempfile
+_unlink
 _parse_guards
 check_free_after_iterating
 _waitfor
@@ -134,6 +137,7 @@ urllib
 EnvironmentVarGuard
 _header
 run_with_locale
+disable_faulthandler
 resource
 gc
 PGO
@@ -159,7 +163,7 @@ requires_bz2
 temp_umask
 sys
 patch
-run_with_tz
+captured_stdin
 unicodedata
 _MemoryWatchdog
 time
@@ -167,6 +171,7 @@ check_impl_detail
 _1G
 shutil
 TEST_DATA_DIR
+_is_android_emulator
 make_legacy_pyc
 unittest
 captured_stdout
@@ -174,7 +179,7 @@ requires_android_level
 _ANDROID_API_LEVEL
 threading_setup
 bigmemtest
-character
+setswitchinterval
 requires_mac_ver
 _requires_unix_version
 _save_and_block_module
@@ -194,8 +199,8 @@ name
 SAVEDCWD
 calcvobjsize
 requires_lzma
-import_module
 threading_cleanup
+import_module
 _check_docstrings
 _ignore_deprecated_imports
 SOCK_MAX_SIZE

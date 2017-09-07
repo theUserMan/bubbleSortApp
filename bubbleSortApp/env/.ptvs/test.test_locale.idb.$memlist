@@ -12,6 +12,7 @@ TestNumberFormatting
 TestFrFRNumberFormatting
 TestfrFRDelocalizeTest
 TestEnUSNumberFormatting
+is_android
 TestEnUSDelocalize
 BaseLocalizedTest
 CCookedTest

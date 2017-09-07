@@ -3,8 +3,9 @@ NOTTESTS
 time
 importlib
 cleanup_test_droppings
+runtest_inner
 os
-runtest
+get_abs_module
 saved_test_environment
 CHILD_ERROR
 faulthandler
@@ -18,7 +19,7 @@ format_test_result
 RESOURCE_DENIED
 traceback
 INTERRUPTED
-runtest_inner
+runtest
 _FORMAT_TEST_RESULT
 findtests
 PROGRESS_MIN_TIME
