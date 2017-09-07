@@ -1,4 +1,4 @@
-{% extends "app/layout.html" %}
+﻿{% extends "app/layout.html" %}
 
 {% block content %}
 
@@ -63,7 +63,14 @@
         <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
           <h1 class="page-header">BubbleSort</h1>
 
-          <h2 class="sub-header">Input</h2>
+          <div class="col-lg-6">
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="Input #s Seperated by Space">
+              <span class="input-group-btn">
+                <button class="btn btn-secondary" type="button">Sort</button>
+              </span>
+            </div>
+          </div>
           <div class="table-responsive">
             <table class="table table-striped">
               <thead>
