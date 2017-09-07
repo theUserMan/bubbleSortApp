@@ -1,6 +1,7 @@
-abc
-unittest
-isabstract
-support
+TestABCWithInitSubclass
 TestABC
+abc
+support
+isabstract
 TestLegacyAPI
+unittest

@@ -16,10 +16,11 @@ Label
 INSERT
 dialog
 re
+Menubutton
 Checkbutton
 NUMERIC
-PanedWindow
 NO
+PanedWindow
 BitmapImage
 SEPARATOR
 BEVEL
@@ -49,8 +50,8 @@ TclError
 Message
 PIESLICE
 RAISED
+image_types
 EXCEPTION
-ANCHOR
 font
 MULTIPLE
 X
@@ -87,7 +88,6 @@ Menu
 NS
 Pack
 ACTIVE
-Menubutton
 getboolean
 MOVETO
 Scale
@@ -122,9 +122,9 @@ HIDDEN
 Frame
 W
 image_names
-image_types
-filedialog
 S
+filedialog
+ANCHOR
 RIDGE
 XView
 OUTSIDE

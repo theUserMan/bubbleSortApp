@@ -7,11 +7,12 @@ test_functools
 test_structseq
 test_exceptions
 test_iterlen
-xmltests
+test_crypt
 test_cmath
 test_urllib
 mock_socket
-test_ensurepip
+test_dis
+mod_generics_cache
 test_threaded_import
 badsyntax_3131
 test_buffer
@@ -34,7 +35,7 @@ test_thread
 test_ucn
 test_script_helper
 outstanding_bugs
-test_zlib
+test_aifc
 test_ipaddress
 test_queue
 test_sched
@@ -62,7 +63,7 @@ test_sndhdr
 badsyntax_future5
 badsyntax_future8
 badsyntax_future9
-test_wait4
+test_peepholer
 test_structmembers
 test_devpoll
 test_pkgutil
@@ -79,9 +80,9 @@ test_concurrent_futures
 string_tests
 test_enum
 test_codecencodings_hk
-signalinterproctester
+test_struct
 test_call
-test_telnetlib
+coding20731
 test_tools
 test_gettext
 test_unpack_ex
@@ -110,7 +111,7 @@ final_b
 test_pickletools
 test_code_module
 lock_tests
-test___future__
+test_pydoc
 test_metaclass
 imp_dummy
 test_dummy_threading
@@ -167,7 +168,7 @@ test_crashers
 test_wait3
 test_multiprocessing_forkserver
 test_ssl
-test_support
+test_sqlite
 test_epoll
 test_macpath
 test_file
@@ -261,9 +262,9 @@ test_unicodedata
 test_dict_version
 test_generator_stop
 test_posix
-test_crypt
+xmltests
+test_ensurepip
 test_frame
-test_dis
 test_fstring
 test_urlparse
 test_rlcompleter
@@ -295,7 +296,7 @@ test_print
 test_difflib
 test_index
 multibytecodec_support
-test_aifc
+test_zlib
 test_stat
 test_pipes
 sample_doctest_no_docstrings
@@ -321,7 +322,7 @@ badsyntax_future4
 test_getpass
 test_unicode_identifiers
 test_funcattrs
-test_peepholer
+test_wait4
 test_minidom
 test_decimal
 test_smtpnet
@@ -337,9 +338,9 @@ test_binascii
 test_asyncore
 test_unicode_file_functions
 test___all__
-test_struct
+test_telnetlib
 test_posixpath
-coding20731
+signalinterproctester
 test_fcntl
 test_socketserver
 test_fractions
@@ -362,7 +363,7 @@ test_pwd
 test_sundry
 test_imp
 test_weakset
-test_pydoc
+test___future__
 test_multiprocessing_fork
 future_test2
 test_userstring
@@ -412,7 +413,7 @@ test_codecencodings_cn
 test_threadsignals
 test_finalization
 test_compare
-test_sqlite
+test_support
 test_defaultdict
 test_mailbox
 test_pprint
@@ -461,6 +462,7 @@ test__opcode
 test_compile
 test_io
 test_argparse
+mp_preload
 test_int_literal
 test_codecmaps_hk
 test_contains

@@ -12,6 +12,7 @@ configparser
 BlatantOverrideConvertersTestCase
 ExceptionContextTestCase
 ConfigParserTestCaseNonStandardDelimiters
+pathlib
 SortedTestCase
 InlineCommentStrippingTestCase
 ConfigParserTestCaseLegacyInterpolation
@@ -24,7 +25,6 @@ io
 ConfigParserTestCaseNonStandardDefaultSection
 BasicTestCase
 RawConfigParserTestSambaConf
-sys
 CopyTestCase
 support
 SortedDict

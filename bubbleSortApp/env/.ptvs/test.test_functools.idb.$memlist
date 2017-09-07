@@ -1,3 +1,4 @@
+time
 TestPartialPySubclass
 Orderable_LT
 collections
@@ -11,6 +12,7 @@ TestTotalOrdering
 TestPartialPy
 c_functools
 c_cached_func
+decimal
 pickle
 copy
 abc
@@ -35,7 +37,7 @@ py_cached_func
 MyTuple
 TestWraps
 TestPartialCSubclass
-decimal
+builtins
 MyDict
 TestReduce
 TestCmpToKey

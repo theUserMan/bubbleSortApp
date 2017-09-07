@@ -5,7 +5,7 @@ logging
 BaseProxy
 raising
 ManagerMixin
-_TestMyManager
+weakref
 TestFlags
 _TestFinalize
 TestWait
@@ -28,7 +28,7 @@ _TestPoll
 HAS_SHAREDCTYPES
 DELTA
 _TestProcess
-errno
+_TestCondition
 QueueManager
 _file_like
 CHECK_TIMINGS
@@ -57,7 +57,8 @@ _queue
 c_int
 exception_throwing_generator
 HAS_REDUCTION
-get_queue
+ProcessesMixin
+CountedObject
 operator
 queue_empty
 TIMEOUT3
@@ -70,6 +71,7 @@ QueueManager2
 BaseManager
 c_double
 _TestBarrier
+_TestMyManager
 _this_sub_process
 unpickleable_result
 TestInvalidHandle
@@ -81,6 +83,7 @@ reduction
 _TestRemoteManager
 _test_process
 _TestSharedCTypes
+identity
 TestSemaphoreTracker
 TestForkAwareThreadLock
 PRELOAD
@@ -91,7 +94,7 @@ get_value
 IteratorProxy
 random
 BaseTestCase
-_TestCondition
+errno
 sys
 copy
 test
@@ -107,6 +110,7 @@ sqr
 latin
 _TestImportStar
 _TestPoolWorkerLifetime
+TestSimpleQueue
 SERIALIZER
 WIN32
 _DummyList
@@ -119,7 +123,7 @@ threading
 TestStdinBadfiledescriptor
 _TestEvent
 raise_large_valuerror
-ProcessesMixin
+get_queue
 _TestContainers
 _afunc
 TestTimeouts

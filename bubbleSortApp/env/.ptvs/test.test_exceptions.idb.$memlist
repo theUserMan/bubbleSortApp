@@ -4,7 +4,7 @@ ImportErrorTests
 errno
 SlottedNaiveException
 ExceptionTests
-weakref
+copy
 pickle
 os
 run_unittest
@@ -12,6 +12,7 @@ captured_stderr
 check_warnings
 unlink
 BrokenStrException
+weakref
 no_tracing
 check_impl_detail
 import_module

@@ -2,10 +2,10 @@ sysconfig
 TESTFN
 ImportSideEffectTests
 EnvironmentVarGuard
+tearDownModule
 copy
 re
 os
-exc
 captured_stderr
 sys
 subprocess
@@ -17,5 +17,7 @@ PthFile
 StartupImportTests
 encodings
 shutil
+setUpModule
+OLD_SYS_PATH
 unittest
 urllib

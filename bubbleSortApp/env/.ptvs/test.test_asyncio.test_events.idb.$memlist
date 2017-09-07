@@ -4,7 +4,7 @@ SIGNING_CA
 TimerTests
 unittest
 collections
-subprocess
+threading
 platform
 socket
 signal
@@ -16,6 +16,7 @@ proactor_events
 KqueueEventLoopTests
 HandleTests
 ProtocolsAbsTests
+_test_get_event_loop_new_process__sub_proc
 PEERCERT
 SIGNED_CERTFILE
 PolicyTests
@@ -32,7 +33,7 @@ sslproto
 MyReadPipeProto
 errno
 io
-threading
+subprocess
 ssl
 MyBaseProto
 data_file
@@ -50,5 +51,6 @@ osx_tiger
 selector_events
 UnixEventLoopTestsMixin
 EPollEventLoopTests
+concurrent
 gc
 SelectEventLoopTests

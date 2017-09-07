@@ -2,7 +2,7 @@ E
 importlib
 ModuleName
 Font
-N
+Frame
 os
 HelpSource
 run
@@ -13,7 +13,6 @@ Entry
 S
 StringVar
 Toplevel
-Frame
 Label
 Query
 Button

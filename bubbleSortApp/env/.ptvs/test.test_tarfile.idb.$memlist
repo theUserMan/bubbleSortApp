@@ -24,7 +24,7 @@ LzmaCreateTest
 PaxWriteTest
 GNUUnicodeTest
 tarname
-GzipWriteTest
+LzmaAppendTest
 io
 LzmaUstarReadTest
 os
@@ -42,6 +42,7 @@ LzmaStreamReadTest
 GNUReadTest
 UnicodeTest
 HardlinkTest
+pathlib
 MemberReadTest
 CommandLineTest
 GzipStreamWriteTest
@@ -70,7 +71,7 @@ ListTest
 support
 Bz2PartialReadTest
 WriteTestBase
-LzmaAppendTest
+GzipWriteTest
 lzma
 LzmaDetectReadTest
 TEMPDIR

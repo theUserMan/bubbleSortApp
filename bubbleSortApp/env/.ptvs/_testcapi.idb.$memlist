@@ -118,10 +118,14 @@ pymarshal_write_object_to_file
 pymem_api_misuse
 pymem_buffer_overflow
 pymem_malloc_without_gil
+pyobject_fastcall
+pyobject_fastcalldict
+pyobject_fastcallkeywords
 pyobject_malloc_without_gil
 pytime_object_to_time_t
 pytime_object_to_timespec
 pytime_object_to_timeval
+raise_SIGINT_then_send_None
 raise_exception
 raise_memoryerror
 raise_signal

@@ -23,9 +23,9 @@ itertools
 _POSITIONAL_OR_KEYWORD
 Arguments
 getcomments
+builtins
 isbuiltin
 token
-getclasstree
 istraceback
 FullArgSpec
 getclosurevars
@@ -79,6 +79,7 @@ getmembers
 _signature_is_functionlike
 GEN_RUNNING
 indentsize
+abc
 isframe
 walktree
 _check_class
@@ -96,7 +97,7 @@ CORO_RUNNING
 _signature_from_callable
 _signature_strip_non_python_syntax
 modulesbyfile
-builtins
+getclasstree
 isabstract
 getabsfile
 getsourcelines

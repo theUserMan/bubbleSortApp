@@ -2,7 +2,8 @@ Source_FindSpecTests
 Source_ResolveNameTests
 importlib_util
 types
-MagicNumberTests
+Frozen_MagicNumberTests
+importlib
 PEP3147Tests
 Source_SetPackageTests
 Frozen_FindSpecTests
@@ -23,7 +24,7 @@ ModuleFromSpecTests
 Frozen_DecodeSourceBytesTests
 sys
 Frozen_PEP3147Tests
-Frozen_MagicNumberTests
+MagicNumberTests
 Source_PEP3147Tests
 support
 machinery

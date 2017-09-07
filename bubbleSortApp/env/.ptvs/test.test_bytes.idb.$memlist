@@ -1,4 +1,5 @@
 sys
+BytesSubclass
 ByteArrayTest
 OtherBytesSubclass
 ByteArraySubclassTest
@@ -12,7 +13,7 @@ ByteArraySubclass
 AssortedBytesTest
 BytesTest
 Indexable
-BytesSubclass
+array
 test
 BytesAsStringTest
 BytearrayPEP3137Test

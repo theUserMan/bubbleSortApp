@@ -1,8 +1,9 @@
 translate
 fnmatchcase
-FnmatchTestCase
+unittest
 TranslateTestCase
+os
 filter
 FilterTestCase
+FnmatchTestCase
 fnmatch
-unittest

@@ -43,4 +43,5 @@ KeepaliveServerTestCase1
 xmlrpclib
 SimpleServerEncodingTestCase
 GzipServerTestCase
+SimpleXMLRPCDispatcherTestCase
 make_request_and_skipIf

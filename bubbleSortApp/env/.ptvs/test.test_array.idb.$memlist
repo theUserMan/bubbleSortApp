@@ -5,13 +5,14 @@ UTF32_BE
 IntTest
 array
 array_reconstructor
+IntegerNumberTest
 operator
 struct
 UNKNOWN_FORMAT
 SIGNED_INT16_LE
 ByteTest
-UnsignedNumberTest
-SIGNED_INT64_LE
+Intable
+UNSIGNED_INT32_LE
 IEEE_754_FLOAT_LE
 FloatTest
 ArraySubclass
@@ -31,7 +32,6 @@ StringTest
 unittest
 warnings
 UnicodeTest
-have_long_long
 IEEE_754_DOUBLE_LE
 sys
 SIGNED_INT32_LE
@@ -39,7 +39,8 @@ DoubleTest
 UNSIGNED_INT16_LE
 UnsignedByteTest
 support
-UNSIGNED_INT32_LE
+UnsignedNumberTest
+SIGNED_INT64_LE
 sizeof_wchar
 NumberTest
 UNSIGNED_INT64_LE

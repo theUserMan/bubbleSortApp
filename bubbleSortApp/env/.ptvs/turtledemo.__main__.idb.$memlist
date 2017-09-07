@@ -19,6 +19,7 @@ Pack
 Label
 dialog
 re
+Menubutton
 Checkbutton
 NUMERIC
 NO
@@ -57,11 +58,11 @@ Message
 E
 RAISED
 filedialog
-ANCHOR
+S
 font
 MULTIPLE
-DoubleVar
 NE
+DoubleVar
 font_sizes
 __doc__
 CHECKBUTTON
@@ -106,7 +107,6 @@ INSERT
 RIGHT
 ACTIVE
 turtle
-Menubutton
 getboolean
 MOVETO
 __file__
@@ -150,7 +150,7 @@ W
 image_names
 image_types
 EXCEPTION
-S
+ANCHOR
 RIDGE
 XView
 OUTSIDE

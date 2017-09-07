@@ -39,6 +39,7 @@ Scrollbar
 WRITABLE
 BROWSE
 BUTT
+platform
 LabelFrame
 commondialog
 RADIOBUTTON
@@ -48,20 +49,20 @@ NORMAL
 KEYRELEASE_VIRTUAL_EVENT_NAME
 TclError
 Message
-PIESLICE
+E
 RAISED
+image_types
 ANCHOR
-S
 font
 LISTUPDATE_SEQUENCE
 MULTIPLE
+HIDE_FOCUS_OUT_SEQUENCE
 int
 HIDE_VIRTUAL_EVENT_NAME
 X
 DoubleVar
 CHECKBUTTON
 hasattr
-ON
 SE
 CASCADE
 Toplevel
@@ -101,8 +102,8 @@ MOVETO
 Scale
 OptionMenu
 READABLE
-PhotoImage
 Entry
+PhotoImage
 CallWrapper
 LEFT
 mainloop
@@ -124,7 +125,7 @@ TOP
 SEL
 constants
 UNITS
-E
+PIESLICE
 COMPLETE_FILES
 N
 dnd
@@ -132,9 +133,9 @@ HIDDEN
 Frame
 W
 image_names
-image_types
-filedialog
 EXCEPTION
+filedialog
+S
 RIDGE
 XView
 OUTSIDE
@@ -146,6 +147,7 @@ NE
 FALSE
 Place
 WORD
+ON
 Image
 EW
 Listbox
@@ -161,3 +163,4 @@ wantobjects
 MITER
 any
 CENTER
+KeyError
