@@ -3,9 +3,10 @@ Definition of views.
 """
 
 from django.shortcuts import render
-from django.http import HttpRequest
+from django.http import HttpRequest, HttpResponse
 from django.template import RequestContext
 from datetime import datetime
+from django.views.decorators.csrf import csrf_exempt, requires_csrf_token
 
 def home(request):
     """Renders the home page."""
@@ -44,3 +45,15 @@ def about(request):
             'year':datetime.now().year,
         }
     )
+
+@csrf_exempt
+def launchBubble(request):
+    inputArray = request.GET.get('inputArray')
+    ''' put Bubblesort algo here '''
+    try:
+        print(inputArray)
+    except Exception as e:
+        return HttpResponse('Failed', status=400)
+        print('Error in getting request')
+    return HttpResponse('It worked', status=200)
+

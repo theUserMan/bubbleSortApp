@@ -56,6 +56,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="app\static\app\content\dashboard.css" />
+    <Content Include="app\static\app\scripts\general.js" />
     <Content Include="app\templates\app\index - Copy.html" />
     <Content Include="requirements.txt" />
     <Content Include="db.sqlite3" />
