@@ -14,9 +14,13 @@ function launchBubbleSortAlg() {
             var row = table.insertRow(2);
             var cell1 = row.insertCell(0);
             var cell2 = row.insertCell(1);
+            var parsedData = JSON.parse(data);
             for (var i = 0; i < data.length; i++) {
                 cell1.innerHTML = i;
-                cell2.innerHTML = "<span style=\"color:red\">" + data ;
+                cell2.innerHTML = "<span style=\"color:red\">" + data;
+                row = table.insertRow(2);
+                cell1 = row.insertCell(0);
+                cell2 = row.insertCell(1);
             }
         },
         error: function (data) {

@@ -7,6 +7,7 @@ from django.http import HttpRequest, HttpResponse
 from django.template import RequestContext
 from datetime import datetime
 from django.views.decorators.csrf import csrf_exempt, requires_csrf_token
+from app.functions import *
 
 def home(request):
     """Renders the home page."""
@@ -50,10 +51,9 @@ def about(request):
 def launchBubble(request):
     inputArray = request.GET.get('inputArray')
     ''' convert the array into a json object '''
-    jsonList = json.dumps(inputArray )
-    ''' put Bubblesort algo here '''
+    jsonList = json.dumps(bubbleMain(inputArray))
     try:
-        print(inputArray)
+        print(jsonList)
     except Exception as e:
         return HttpResponse('Failed', status=400)
         print('Error in getting request')
