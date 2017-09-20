@@ -1,6 +1,8 @@
 function launchBubbleSortAlg() {
     var inputArray = $('#inputArray').val();
-    var table = document.getElementById("resultTable")
+    var table = document.getElementById("resultTable");
+    document.getElementById("launchButton").disabled = true;
+    document.getElementById("quitButton").disabled = false;
     $.ajax({
         url: "launchBubble",
         data: {
@@ -14,11 +16,23 @@ function launchBubbleSortAlg() {
             var cell2 = row.insertCell(1);
             for (var i = 0; i < data.length; i++) {
                 cell1.innerHTML = i;
-                cell2.innerHTML = data;
+                cell2.innerHTML = "<span style=\"color:red\">" + data ;
             }
         },
         error: function (data) {
             alert("failed");
         }
     })
+}
+function quitBubbleSortAlg() {
+    var table = document.getElementById("resultTable");
+    var rowCount = table.rows.length;
+    for (var i = rowCount - 1; i > 1; i--) {
+        table.deleteRow(i);
+    }
+    document.getElementById("inputArray").value = "";
+    document.getElementById("launchButton").disabled = false;
+    document.getElementById("quitButton").disabled = true;
+
+
 }
