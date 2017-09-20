@@ -1,7 +1,7 @@
 """
 Definition of views.
 """
-
+import json
 from django.shortcuts import render
 from django.http import HttpRequest, HttpResponse
 from django.template import RequestContext
@@ -49,11 +49,13 @@ def about(request):
 @csrf_exempt
 def launchBubble(request):
     inputArray = request.GET.get('inputArray')
+    ''' convert the array into a json object '''
+    jsonList = json.dumps(inputArray )
     ''' put Bubblesort algo here '''
     try:
         print(inputArray)
     except Exception as e:
         return HttpResponse('Failed', status=400)
         print('Error in getting request')
-    return HttpResponse('It worked', status=200)
+    return HttpResponse(jsonList, status=200)
 
