@@ -1,6 +1,6 @@
 function launchBubbleSortAlg() {
     var inputArray = $('#inputArray').val();
-    if inputArray.length > 1 && inputArray.length < 9 {
+    if (inputArray.length > 1 && inputArray.length < 9) {
         var table = document.getElementById("resultTable");
         document.getElementById("launchButton").disabled = true;
         document.getElementById("quitButton").disabled = false;
