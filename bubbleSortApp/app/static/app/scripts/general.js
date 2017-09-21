@@ -19,16 +19,17 @@ function launchBubbleSortAlg() {
                 var parsed = JSON.parse(data);
                 for (var i = parsed.length - 1; i >= 0; i--) {
                     cell1.innerHTML = i;
-                    /*var j = 0;
-                    for (var w in parsed[i]) {
-                        cell2.innerHTML = w;
-                        if (j == parsed[i][1] || j == parsed[i][1] + 1)
-                            cell2.innerHTML = "<span style=\"color:red\">" + w;
+                    var x = "";
+                    for (var j = 0; j < parsed[i][0].length; j++) {
+                        ix = parsed[j][1];
+                        if ((j == ix || j == ix + 1) && ix > 0)
+                            x = x + "<span style=\"color:red\">" + parsed[i][0][j] + "<span style=\"color:black\">";
                         else
-                            cell2.innerHTML = w;
-                        j++;
-                    }*/
-                    cell2.innerHTML = parsed[i][0];
+                            x = x + parsed[i][0][j];
+                        //alert(x);
+                    }
+                    //cell2.innerHTML = parsed[i][0];
+                    cell2.innerHTML = x;
                     row = table.insertRow(2);
                     cell1 = row.insertCell(0);
                     cell2 = row.insertCell(1);

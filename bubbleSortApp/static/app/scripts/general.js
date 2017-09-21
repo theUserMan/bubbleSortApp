@@ -1,6 +1,7 @@
 function launchBubbleSortAlg() {
     var inputArray = $('#inputArray').val();
-    if (inputArray.length > 1 && inputArray.length < 9) {
+    var size = inputArray.split(" ").length;
+    if (size > 1 && size < 9) {
         var table = document.getElementById("resultTable");
         document.getElementById("launchButton").disabled = true;
         document.getElementById("quitButton").disabled = false;
@@ -15,10 +16,20 @@ function launchBubbleSortAlg() {
                 var row = table.insertRow(2);
                 var cell1 = row.insertCell(0);
                 var cell2 = row.insertCell(1);
-                var parsedData = JSON.parse(data);
-                for (var i = 0; i < data.length; i++) {
+                var parsed = JSON.parse(data);
+                for (var i = parsed.length - 1; i >= 0; i--) {
                     cell1.innerHTML = i;
-                    cell2.innerHTML = "<span style=\"color:red\">" + data;
+                    var x = "";
+                    alert(parsed[i][0]);
+                    for (var j = 0; j < parsed[i][0].length; j++) {
+                        if (j == parsed[i][1][j] || j == parsed[i][1][j] + 1)
+                            x = x + "<span style=\"color:red\">" + parsed[i][1][j];
+                        else
+                            x = x + "<span style=\"color:black\">" + parsed[i][1][j];
+                        //alert(x);
+                    }
+                    //cell2.innerHTML = parsed[i][0];
+                    cell2.innerHTML = x;
                     row = table.insertRow(2);
                     cell1 = row.insertCell(0);
                     cell2 = row.insertCell(1);
