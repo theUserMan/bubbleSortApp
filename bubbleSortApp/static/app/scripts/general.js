@@ -11,24 +11,23 @@ function launchBubbleSortAlg() {
                 'inputArray': inputArray
             },
             success: function (data) {
-                //alert(data);
-                //alert('Your input array: \n' + inputArray);
                 var row = table.insertRow(2);
                 var cell1 = row.insertCell(0);
                 var cell2 = row.insertCell(1);
                 var parsed = JSON.parse(data);
                 for (var i = parsed.length - 1; i >= 0; i--) {
-                    cell1.innerHTML = i;
                     var x = "";
-                    alert(parsed[i][0]);
-                    for (var j = 0; j < parsed[i][0].length; j++) {
-                        if (j == parsed[i][1][j] || j == parsed[i][1][j] + 1)
-                            x = x + "<span style=\"color:red\">" + parsed[i][1][j];
+                    var y = parsed[i][0].split(" ");
+                    cell1.innerHTML = i;
+                    for (var j = 0; j < y.length; j++) {
+                        ix = parsed[i][1];
+                        if (j == ix || j == ix + 1) {
+                            x = x + " <u><span style=\"color:red\">" + y[j] + "</span></u>";
+                        }
                         else
-                            x = x + "<span style=\"color:black\">" + parsed[i][1][j];
-                        //alert(x);
+                            x = x + " <span style=\"color:black\">" + y[j];
+                       
                     }
-                    //cell2.innerHTML = parsed[i][0];
                     cell2.innerHTML = x;
                     row = table.insertRow(2);
                     cell1 = row.insertCell(0);
